@@ -10,7 +10,7 @@ function report () {
   first = parseInt(first)
   second = parseInt(second)
   for (let i = 0; i < first; i++) {
-  total = total + second
+    total = total + second
   }
   document.getElementById('report').innerHTML = total
   total = 0
